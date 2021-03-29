@@ -35,7 +35,7 @@ namespace Program
             foreach (var comment in post.Comments)
             {
                 DateTime localTimeComment = TimeZoneInfo.ConvertTimeFromUtc(comment.CreatedTime, localZoneId);
-                Console.WriteLine("     "+commentcount+". comment:"+comment.CommentContent + " commented by: " + comment.CommenterName + ", and commented time "
+                Console.WriteLine("     "+commentcount+". comment: "+comment.CommentContent + " commented by: " + comment.CommenterName + ", and commented time "
                     + localTime.ToString("dddd,dd-MMMM-yyyy") + "\n");
                 commentcount++;
                 int replyCount = 0;
@@ -43,7 +43,7 @@ namespace Program
                 foreach(var reply in post.Replys)
                 {
                     DateTime localTimeReply = TimeZoneInfo.ConvertTimeFromUtc(reply.CreatedTime, localZoneId);
-                    Console.WriteLine("         "+replyCount+ ". reply:" + reply.CommentContent + " replayed by: " + reply.CommenterName + ", and replayed time "
+                    Console.WriteLine("         "+replyCount+ ". reply: " + reply.CommentContent + " replayed by: " + reply.CommenterName + ", and replayed time "
                     + localTime.ToString("dddd,dd-MMMM-yyyy") + "\n");
                     replyCount++;
                 }
@@ -133,7 +133,7 @@ namespace Program
                             else
                             {
 
-                                Console.WriteLine("NO post found from {0}", userManager.CurrentUser.UserName);
+                                Console.WriteLine("No post found from {0}", userManager.CurrentUser.UserName);
                                 break;
                             }
                         case 3:
