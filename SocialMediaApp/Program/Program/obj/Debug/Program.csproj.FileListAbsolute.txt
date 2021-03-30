@@ -1,7 +1,0 @@
-D:\C#\SocialMediaApp\Program\Program\obj\Debug\Program.csprojAssemblyReference.cache
-D:\C#\SocialMediaApp\Program\Program\obj\Debug\Program.csproj.CoreCompileInputs.cache
-D:\C#\SocialMediaApp\Program\Program\bin\Debug\Program.exe.config
-D:\C#\SocialMediaApp\Program\Program\bin\Debug\Program.exe
-D:\C#\SocialMediaApp\Program\Program\bin\Debug\Program.pdb
-D:\C#\SocialMediaApp\Program\Program\obj\Debug\Program.exe
-D:\C#\SocialMediaApp\Program\Program\obj\Debug\Program.pdb
